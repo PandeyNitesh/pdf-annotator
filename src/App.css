@@ -1,0 +1,17 @@
+canvas {
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
+.main_wrapp{
+  display: flex;
+  flex-wrap: wrap;
+}
+.viewer_pdf{
+  flex-basis: 1;
+  height: 98vh;
+  overflow: hidden;
+}
+.right_pan_wrapp{
+  flex-basis: 1;
+}
