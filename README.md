@@ -13,31 +13,33 @@ This project is a React-based application that allows users to interact with a P
 #### Node.js installed on your system.
 #### A GitHub repository to manage version control (optional).
 Installation and Setup
-Clone the repository:
-- git clone <repository-url>
-- cd <project-directory>
-Install node modules:
-- npm install
-Run project:
-- npm run dev
+## Clone the repository:
+##### - git clone [repository-url]
+##### - cd [project-directory]
+## Install node modules:
+##### - npm install
+## Run project:
+##### - npm run dev
 
-src/
+## Folder structure:
 
-├── components/
+#### src/
 
-│   ├── PDFViewer.jsx      # Handles PDF rendering and input interactions
+#### ├── components/
 
-│   ├── RightPane.jsx      # Displays draggable text inputs
+#### │   ├── PDFViewer.jsx      # Handles PDF rendering and input interactions
 
-├── App.jsx                # Main application logic
+#### │   ├── RightPane.jsx      # Displays draggable text inputs
 
-├── context/
+#### ├── App.jsx                # Main application logic
 
-│   ├── InputsContext.jsx  # Context API for managing input state
+#### ├── context/
 
-├── styles.css             # Application styles
+#### │   ├── InputsContext.jsx  # Context API for managing input state
 
-├── main.jsx               # Entry point for the React application
+#### ├── styles.css             # Application styles
+
+#### ├── main.jsx               # Entry point for the React application
 
 How to Use
 Step 1: Load a PDF in the application.
